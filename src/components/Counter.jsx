@@ -13,9 +13,6 @@ export default function Counter(){
     function decrease(){
         setCount(count -10);
     }
-    function Triple(){
-        setCount(count *3);
-    }
 
     return (
         <div>
@@ -24,7 +21,6 @@ export default function Counter(){
             <button onClick={increase}>+10</button>
             <button onClick={decrement}>-1</button>
             <button onClick={decrease}>-10</button>
-            <button onClick={Triple}>Triple</button>
         </div>
     );
 }
